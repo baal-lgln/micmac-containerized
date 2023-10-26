@@ -1,7 +1,7 @@
 name: build-push-micmac-image
 on:
-  push:
-    branches: ['release']
+  release:
+    types: [ published ]
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: micmac
