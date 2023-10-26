@@ -1,0 +1,9 @@
+.env
+.git
+.gitignore
+.vscode
+dist
+docker-compose.yml
+Dockerfile
+README.md
+renovate.json
